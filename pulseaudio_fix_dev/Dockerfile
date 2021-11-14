@@ -1,5 +1,5 @@
 ARG BUILD_FROM
-FROM $BUILD_FROM
+FROM homeassistant/armv7-base:3.12
 ENV LANG C.UTF-8
 # Set shell
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
