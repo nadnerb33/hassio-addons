@@ -5,7 +5,7 @@ ENV LANG C.UTF-8
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
 # Setup base
-ARG BUILD_ARCH=amd64
+ARG BUILD_ARCH=armv7
 RUN \
     apk add --no-cache \
         alsa-plugins-pulse \
